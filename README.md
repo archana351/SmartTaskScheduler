@@ -32,7 +32,7 @@ A modern, desktop task management application built using **Core Java**, **JavaF
 
 ---
 
-## 📊 Modern Dashboard Layout
+## Screenshot
 
 <img width="1910" height="1012" alt="image" src="https://github.com/user-attachments/assets/930aa002-1472-4204-aacf-e5d7abd517ad" />
 
