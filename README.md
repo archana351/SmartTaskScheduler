@@ -34,35 +34,8 @@ A modern, desktop task management application built using **Core Java**, **JavaF
 
 ## 📊 Modern Dashboard Layout
 
-```text
-----------------------------------------------------------------------
-| SMART TASK SCHEDULER                                               |
-| Organize your tasks, prioritize your work, and stay productive     |
-----------------------------------------------------------------------
-|                                                                    |
-|  TOTAL TASKS        PENDING          COMPLETED       HIGH PRIORITY |
-|       7                7                 0                 3       |
-|                                                                    |
-|  Add New Task                                                      |
-|  ----------------------------------------------------------------  |
-|  Title:       [________________________]                           |
-|  Description: [________________________]                           |
-|  Priority:    [ HIGH ▼ ]   Deadline: [ DD-MM-YYYY ]   [ + Add Task ]|
-|                                                                    |
-|  Search: [____________] [Search] [Show All]   Sort: [Priority▼] [Sort]|
-|                                                                    |
-|  Tasks                                                             |
-|  ----------------------------------------------------------------  |
-|  ID | Title | Description | Priority | Deadline | Status           |
-|  ----------------------------------------------------------------  |
-|                                                                    |
-|         [✓ Complete Task]   [✕ Delete Task]   [⟲ Undo]   [★ Next Task]  |
-|                                                                    |
-|  Status: Ready. 7 sample tasks loaded.               [⚙ DSA Status]|
-----------------------------------------------------------------------
-```
+<img width="1910" height="1012" alt="image" src="https://github.com/user-attachments/assets/930aa002-1472-4204-aacf-e5d7abd517ad" />
 
----
 
 ## ✨ Features
 
