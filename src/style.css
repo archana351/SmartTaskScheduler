@@ -1,0 +1,331 @@
+/* ==========================================================================
+   Smart Task Scheduler - Modern Dark Productivity Dashboard Style
+   ========================================================================== */
+
+/* Root Window & General Settings */
+.root {
+    -fx-font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    -fx-font-size: 13px;
+    -fx-background-color: #12151d;
+    -fx-base: #1e222d;
+    -fx-text-fill: #f8fafc;
+}
+
+/* Header */
+.app-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-letter-spacing: 0.5px;
+}
+
+.app-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #94a3b8;
+}
+
+/* Rounded Cards */
+.card {
+    -fx-background-color: #1e222d;
+    -fx-background-radius: 10px;
+    -fx-border-color: #2a3040;
+    -fx-border-radius: 10px;
+    -fx-border-width: 1px;
+    -fx-padding: 14px 18px;
+}
+
+.card-title {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f1f5f9;
+}
+
+/* Top Statistics Metric Cards */
+.stat-card {
+    -fx-background-color: #1a1e29;
+    -fx-background-radius: 8px;
+    -fx-border-color: #2d3446;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+    -fx-padding: 12px 18px;
+    -fx-alignment: center-left;
+}
+
+.stat-label {
+    -fx-font-size: 11px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #94a3b8;
+    -fx-text-transform: uppercase;
+}
+
+.stat-value {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+}
+
+.stat-value-blue {
+    -fx-text-fill: #38bdf8;
+}
+
+.stat-value-amber {
+    -fx-text-fill: #fbbf24;
+}
+
+.stat-value-green {
+    -fx-text-fill: #34d399;
+}
+
+.stat-value-red {
+    -fx-text-fill: #f87171;
+}
+
+/* Form Controls */
+.field-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: 600;
+    -fx-text-fill: #cbd5e1;
+}
+
+.text-field {
+    -fx-background-color: #0f121a;
+    -fx-text-fill: #f8fafc;
+    -fx-prompt-text-fill: #64748b;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-padding: 7px 10px;
+}
+
+.text-field:focused {
+    -fx-border-color: #3b82f6;
+    -fx-border-width: 1.5px;
+}
+
+.combo-box {
+    -fx-background-color: #0f121a;
+    -fx-border-color: #334155;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+}
+
+.combo-box .cell {
+    -fx-text-fill: #f8fafc;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: #1e222d;
+    -fx-text-fill: #f8fafc;
+    -fx-padding: 6px 10px;
+}
+
+.combo-box .list-cell:hover {
+    -fx-background-color: #2d3446;
+}
+
+/* Modern Buttons */
+.btn {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+    -fx-border-radius: 6px;
+    -fx-padding: 7px 16px;
+    -fx-cursor: hand;
+    -fx-text-fill: #ffffff;
+}
+
+.btn-primary {
+    -fx-background-color: #3b82f6;
+}
+.btn-primary:hover {
+    -fx-background-color: #2563eb;
+}
+
+.btn-success {
+    -fx-background-color: #10b981;
+}
+.btn-success:hover {
+    -fx-background-color: #059669;
+}
+
+.btn-danger {
+    -fx-background-color: #ef4444;
+}
+.btn-danger:hover {
+    -fx-background-color: #dc2626;
+}
+
+.btn-purple {
+    -fx-background-color: #8b5cf6;
+}
+.btn-purple:hover {
+    -fx-background-color: #7c3aed;
+}
+
+.btn-cyan {
+    -fx-background-color: #0ea5e9;
+}
+.btn-cyan:hover {
+    -fx-background-color: #0284c7;
+}
+
+.btn-secondary {
+    -fx-background-color: #475569;
+}
+.btn-secondary:hover {
+    -fx-background-color: #334155;
+}
+
+/* Secondary / Subtle DSA Status Button (Bottom-Right) */
+.btn-dsa-subtle {
+    -fx-background-color: rgba(14, 165, 233, 0.10);
+    -fx-text-fill: #38bdf8;
+    -fx-border-color: rgba(14, 165, 233, 0.40);
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 11px;
+    -fx-font-weight: 600;
+    -fx-padding: 4px 10px;
+    -fx-cursor: hand;
+}
+
+.btn-dsa-subtle:hover {
+    -fx-background-color: #0284c7;
+    -fx-border-color: #0284c7;
+    -fx-text-fill: #ffffff;
+}
+
+/* Modern TableView */
+.table-view {
+    -fx-background-color: #1e222d;
+    -fx-background-radius: 8px;
+    -fx-border-color: #2a3040;
+    -fx-border-radius: 8px;
+    -fx-border-width: 1px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #181c26;
+    -fx-background-radius: 8px 8px 0 0;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-size: 34px;
+    -fx-border-color: transparent #2a3040 transparent transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #94a3b8;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.table-row-cell {
+    -fx-background-color: #1a1e28;
+    -fx-border-color: transparent transparent #252b3b transparent;
+    -fx-cell-size: 32px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #161922;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: #ffffff;
+}
+
+.table-row-cell .table-cell {
+    -fx-text-fill: #e2e8f0;
+    -fx-alignment: center-left;
+    -fx-padding: 0 10px;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: #ffffff;
+}
+
+.table-view .placeholder .label {
+    -fx-text-fill: #64748b;
+    -fx-font-style: italic;
+}
+
+/* Priority Badges */
+.badge {
+    -fx-padding: 3px 8px;
+    -fx-background-radius: 4px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.badge-high {
+    -fx-background-color: rgba(239, 68, 68, 0.2);
+    -fx-text-fill: #fca5a5;
+    -fx-border-color: #ef4444;
+    -fx-border-radius: 4px;
+}
+
+.badge-medium {
+    -fx-background-color: rgba(245, 158, 11, 0.2);
+    -fx-text-fill: #fde68a;
+    -fx-border-color: #f59e0b;
+    -fx-border-radius: 4px;
+}
+
+.badge-low {
+    -fx-background-color: rgba(14, 165, 233, 0.2);
+    -fx-text-fill: #bae6fd;
+    -fx-border-color: #0ea5e9;
+    -fx-border-radius: 4px;
+}
+
+.badge-completed {
+    -fx-background-color: rgba(16, 185, 129, 0.2);
+    -fx-text-fill: #a7f3d0;
+    -fx-border-color: #10b981;
+    -fx-border-radius: 4px;
+}
+
+.badge-pending {
+    -fx-background-color: rgba(100, 116, 139, 0.2);
+    -fx-text-fill: #cbd5e1;
+    -fx-border-color: #64748b;
+    -fx-border-radius: 4px;
+}
+
+/* Status Bar */
+.status-bar {
+    -fx-font-size: 12px;
+    -fx-text-fill: #94a3b8;
+    -fx-font-style: italic;
+    -fx-padding: 4px 6px;
+}
+
+/* Dialog / Alert styling */
+.dialog-pane {
+    -fx-background-color: #1e222d;
+    -fx-border-color: #3b82f6;
+    -fx-border-width: 1px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #161922;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #f8fafc;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #3b82f6;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6px;
+}
+.dialog-pane .button:hover {
+    -fx-background-color: #2563eb;
+}

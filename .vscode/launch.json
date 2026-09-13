@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run Main (SmartTaskScheduler)",
+            "request": "launch",
+            "mainClass": "Main",
+            "vmArgs": "--module-path lib --add-modules javafx.controls"
+        },
+        {
+            "type": "java",
+            "name": "Run SmartTaskSchedulerApp",
+            "request": "launch",
+            "mainClass": "SmartTaskSchedulerApp",
+            "vmArgs": "--module-path lib --add-modules javafx.controls"
+        },
+        {
+            "type": "java",
+            "name": "Run TestScheduler",
+            "request": "launch",
+            "mainClass": "TestScheduler"
+        }
+    ]
+}
