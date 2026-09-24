@@ -1,4 +1,4 @@
-# Smart Task Scheduler (JavaFX Edition)
+# Smart Task Scheduler
 
 A modern, desktop task management application built using **Core Java**, **JavaFX**, and **Custom Data Structures & Algorithms (DSA)**.
 
